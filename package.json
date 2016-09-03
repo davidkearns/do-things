@@ -1,0 +1,32 @@
+{
+  "name": "do-things",
+  "version": "0.0.0",
+  "description": "node module for doing things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkearns/do-things.git"
+  },
+  "keywords": [
+    "things",
+    "async",
+    "utility",
+    "callback",
+    "module"
+  ],
+  "author": {
+    "name": "David Kearns",
+    "url": "https://github.com/davidkearns"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidkearns/do-things/issues"
+  },
+  "homepage": "https://github.com/davidkearns/do-things#readme",
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
