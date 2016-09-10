@@ -28,26 +28,26 @@ var Thing = require('./things.js'); // Some object to operate on
 
 // Nested objects are visited in parallel
 var someParallelThings = {
-	// Objects in arrays are visited in series
-	someSeriesThings: [
-		{seriesThing1: new Thing()},
-		{seriesThing2: new Thing()},
-	],
-	parallelThing2: new Thing(),
-	parallelThing3: new Thing()
+  // Objects in arrays are visited in series
+  someSeriesThings: [
+    {seriesThing1: new Thing()},
+    {seriesThing2: new Thing()},
+  ],
+  parallelThing2: new Thing(),
+  parallelThing3: new Thing()
 };
 doThings.inOrder(things, doIt, handleUpstreamFailure, done);
 
 function doIt(thingName, thing, callback) {
-	// Perform an async operation on a thing and callback optionally with an error
+  // Perform an async operation on a thing and callback optionally with an error
 }
 
 function handleUpstreamFailure(taskName, error) {
-	// Handle the upstream error for the given task
+  // Handle the upstream error for the given task
 }
 
 function done(err) {
-	// Handle completion with or without an error
+  // Handle completion with or without an error
 }
 ```
 
