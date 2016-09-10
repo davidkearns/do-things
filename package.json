@@ -1,6 +1,6 @@
 {
   "name": "do-things",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "node module for doing things",
   "main": "index.js",
   "scripts": {
